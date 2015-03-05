@@ -14,6 +14,7 @@
 		531CF7AB1AA7EFC2004B1855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531CF7AA1AA7EFC2004B1855 /* Images.xcassets */; };
 		531CF7AE1AA7EFC2004B1855 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 531CF7AC1AA7EFC2004B1855 /* LaunchScreen.xib */; };
 		531CF7BA1AA7EFC2004B1855 /* WiFiScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CF7B91AA7EFC2004B1855 /* WiFiScannerTests.m */; };
+		531CF7C51AA7EFE0004B1855 /* NetworksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CF7C41AA7EFE0004B1855 /* NetworksManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		531CF7B31AA7EFC2004B1855 /* WiFiScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		531CF7B81AA7EFC2004B1855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531CF7B91AA7EFC2004B1855 /* WiFiScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiScannerTests.m; sourceTree = "<group>"; };
+		531CF7C31AA7EFE0004B1855 /* NetworksManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworksManager.h; sourceTree = "<group>"; };
+		531CF7C41AA7EFE0004B1855 /* NetworksManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworksManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				531CF7A21AA7EFC2004B1855 /* AppDelegate.m */,
 				531CF7A41AA7EFC2004B1855 /* ViewController.h */,
 				531CF7A51AA7EFC2004B1855 /* ViewController.m */,
+				531CF7C31AA7EFE0004B1855 /* NetworksManager.h */,
+				531CF7C41AA7EFE0004B1855 /* NetworksManager.m */,
 				531CF7A71AA7EFC2004B1855 /* Main.storyboard */,
 				531CF7AA1AA7EFC2004B1855 /* Images.xcassets */,
 				531CF7AC1AA7EFC2004B1855 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				531CF7C51AA7EFE0004B1855 /* NetworksManager.m in Sources */,
 				531CF7A61AA7EFC2004B1855 /* ViewController.m in Sources */,
 				531CF7A31AA7EFC2004B1855 /* AppDelegate.m in Sources */,
 				531CF7A01AA7EFC2004B1855 /* main.m in Sources */,
